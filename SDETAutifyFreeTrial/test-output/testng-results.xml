@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-10T18:53:05 IST" name="Autify Test Suite" finished-at="2025-05-10T18:53:25 IST" duration-ms="19734">
+    <groups>
+      <group name="FreeTrial">
+        <method signature="AutifyFreeTrialTesting.freeStartTrialNavigationValidation()[pri:0, instance:autifyFreeTrialUsingTestNG.AutifyFreeTrialTesting@77fbd92c]" name="freeStartTrialNavigationValidation" class="autifyFreeTrialUsingTestNG.AutifyFreeTrialTesting"/>
+        <method signature="AutifyFreeTrialTesting.freeStartTrialSignUpValidation()[pri:0, instance:autifyFreeTrialUsingTestNG.AutifyFreeTrialTesting@77fbd92c]" name="freeStartTrialSignUpValidation" class="autifyFreeTrialUsingTestNG.AutifyFreeTrialTesting"/>
+      </group> <!-- FreeTrial -->
+    </groups>
+    <test started-at="2025-05-10T18:53:05 IST" name="Autify Tests" finished-at="2025-05-10T18:53:25 IST" duration-ms="19734">
+      <class name="autifyFreeTrialUsingTestNG.AutifyFreeTrialTesting">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:autifyFreeTrialUsingTestNG.AutifyFreeTrialTesting@77fbd92c]" started-at="2025-05-10T18:53:05 IST" name="setUp" finished-at="2025-05-10T18:53:09 IST" duration-ms="3397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="freeStartTrialNavigationValidation()[pri:0, instance:autifyFreeTrialUsingTestNG.AutifyFreeTrialTesting@77fbd92c]" started-at="2025-05-10T18:53:09 IST" name="freeStartTrialNavigationValidation" finished-at="2025-05-10T18:53:23 IST" duration-ms="14787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freeStartTrialNavigationValidation -->
+        <test-method signature="freeStartTrialSignUpValidation()[pri:0, instance:autifyFreeTrialUsingTestNG.AutifyFreeTrialTesting@77fbd92c]" started-at="2025-05-10T18:53:23 IST" name="freeStartTrialSignUpValidation" finished-at="2025-05-10T18:53:24 IST" depends-on-methods="autifyFreeTrialUsingTestNG.AutifyFreeTrialTesting.freeStartTrialNavigationValidation" duration-ms="879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freeStartTrialSignUpValidation -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:autifyFreeTrialUsingTestNG.AutifyFreeTrialTesting@77fbd92c]" started-at="2025-05-10T18:53:24 IST" name="TearDown" finished-at="2025-05-10T18:53:25 IST" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- autifyFreeTrialUsingTestNG.AutifyFreeTrialTesting -->
+    </test> <!-- Autify Tests -->
+  </suite> <!-- Autify Test Suite -->
+</testng-results>
